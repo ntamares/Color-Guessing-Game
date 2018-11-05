@@ -2,6 +2,10 @@ body {
     background: #232323;
 }
 
+h1 {
+    color: white;
+}
+
 .square {
     width: 30%;
     background: purple;
@@ -10,15 +14,20 @@ body {
     margin: 1.66%
 }
 
+.selected {
+    background: blue;
+}
+
 #container {
     max-width: 600px;
     margin: 0 auto;
 }
 
-h1 {
-    color: white;
-}
 
-#result {
-    color: white;
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
 }
